@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a1aff063;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer, main, nav {
+    max-width: 760px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #f1d7d5d5; 
+    border-radius: 15px;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+header img {
+    border-radius: 20px;
+}
+header span {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+.hero{
+    display: block;
+    margin: 0.5rem auto;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+}
+.hero span{margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(133, 131, 167);
+    border-radius: 10px;
+}
+.hero img{
+    margin: 0.075rem;
+    width: 57%;
+    height: 450px;
+}
+
+#mode, #normal {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+#normal{
+    font-size: larger;
+    background-color: #f1d7d5d5;
+    top: 1.0rem;
+    right: 4rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+#normal:hover{
+    background-color: rgb(233, 163, 152);
+}
+.image{
+    width: 26px;
+}
+a{
+    text-decoration: none;
+}
+/* Navigation css is here */
+ nav{
+    display: block;
+}
+
+nav a{
+    text-align: center;
+    margin: 0.10rem;
+    color: white;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: rgb(235, 188, 181);
+}
+
+#button::before {
+    content: "☰";
+}
+/* button  resize and other decoration added*/
+#button {
+    font-size: 1.75rem;
+    border: none;
+    background-color: #f1d7d5d5;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+}
+.name{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(29, 26, 26);
+    padding: 1rem;
+}
+.list{
+    display: block;
+    background-color: rgba(26, 26, 26, 0.377);
+    padding: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+/* display in the ul by the class attribute to hide it */
+.horizontal-ul{
+    display: none;
+}
+
+/* displaying the nav ul in block */
+.horizontal-ul.open{
+    display: block;
+}
+#button.open::before{
+    content: "X";
+}/*Navigaton editing ends here */
+
+h2, h1{
+    text-align: center;
+}
+h2{
+    background-color: rgba(241, 161, 161, 0.377);
+    border-radius: 10px;
+}
+
+section:hover{
+    background-color: rgb(240, 225, 223);
+}
+
+/* main section css */
+#section{
+    position: relative;
+}
+#section .ul li{
+    border-radius: 4px;
+    border: 1px solid #e7c4c2d5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+.card {
+    margin: 2rem 4vw;
+    border-radius: 10px;
+}
+.ul a{
+    color: black;
+}
+ .ul{
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+.card a{
+    padding: 1px;
+}
+.card li:hover{
+    border-radius: 3px;
+    background-color: rgb(230, 202, 197);
+}
+.ul .spanner{
+    text-align: center;
+}
+#weather-icon{
+    width: 100%;
+    height: auto;
+}
+footer{
+    text-align: center;
+}
+.naija{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: -3px;
+}
+.insta{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: -3px;
+}
+

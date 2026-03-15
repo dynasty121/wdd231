@@ -1,0 +1,122 @@
+@media screen and (min-width: 40rem){
+    #button{display: none;}
+    #headerdesign, footer{
+        max-width: 98%;
+        margin: 0.1rem auto;
+    }
+    nav a{
+        border-radius: 3px;
+        display: block;
+        color: #050505f8;
+        border: 1px solid rgb(0, 0, 0);
+        margin: 0;
+
+    }
+    .horizontal, .horizontal.open{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    }
+    #animation{
+        background-color: #dbebdb;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        max-width: 80%;
+        border-radius: 0.5rem;
+    }
+    .hero-img div{
+        margin: 0.5rem;
+    }
+    .figure{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .figure img{
+        border: 1px solid rgba(236, 230, 230, 0.651);
+        border-radius: 0.5rem;
+    }
+    /* weather css */
+    .span-humidity{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .setter .span-humidity {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-3{
+        padding: 0.4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;   
+    }
+    .join{
+        margin: 1rem;
+    }
+    hr{
+        display: none;
+    }
+    .event-weather{
+        padding: 0.4rem;
+        display: flex;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .setter h3{
+        color: rgba(51, 48, 48, 0.705);
+    }
+    /* Discoery Css */
+    .main{
+        border: 1px solid rgb(73, 49, 49);
+        display: grid;
+        grid-template-columns: 1.5fr 3fr;
+        text-align: center;
+    }
+    main h2, main p{
+        text-align: center;
+    }
+    .side-bar{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: white;
+    }
+    .side-bar img{
+        width: 100%;
+        height: 400px;
+    }
+    .side-bar img, .side-bar h3, .side-bar p{
+        margin: 0.1rem auto;
+        padding: 0.2rem;
+    }
+    .sided{
+        padding: 0.5rem;
+        background-color: hsl(143, 10%, 64%);
+    }
+    .sided h3{
+        position: absolute;
+        justify-content: end;
+        left: 100px;
+        top: 10px;
+        color: rgb(50, 168, 172);
+    }
+    .side-bar p{
+        padding: 2px;
+    }
+    img:hover {box-shadow: 0 0 50px #333;}
+
+    /* Join form Editing */
+    #move-center{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        background-color: rgb(199, 243, 166);
+    }
+
+    /* slide Show CSS */
+    .slideshow-container{
+        padding: 0;
+    }
+
+}
