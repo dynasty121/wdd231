@@ -9,7 +9,7 @@ button.addEventListener("click", () => {
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 document.querySelector(".span3").textContent = new Date().toLocaleDateString('en-US', options);
 
-const userName = "Edem Francis";
+const userName = "obinali uchenna";
 document.querySelector(".span2").textContent = userName;
 
 
