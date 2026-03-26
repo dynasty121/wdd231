@@ -33,8 +33,8 @@ apiFetch();
 
 
 // Adding link to my Learning activity during the weeks
-const baseUrl = "https://edemfrancis.github.io/wdd230/";
-const linkUrl = "https://edemfrancis.github.io/wdd230/data/link.json";
+const baseUrl = "https://dynasty121.github.io/wdd230/";
+const linkUrl = "https://dynasty121.github.io/wdd230/data/link.json";
 // const ancor = document.querySelector("a");
 // week 1 get id ancor tags
 
